@@ -1,0 +1,24 @@
+# cSpell:ignore aidken
+# cSpell:ignore setuptools openpyxl xlwings
+
+[project]
+name = "my_python_project_scaffold"
+authors = [
+    {name="Ken Aida"}
+]
+version = "2025.01.12a1"
+description = "My scaffolding of a Python project."
+
+requires-python = ">= 3.10"
+
+dependencies = [
+    "openpyxl>=3.1.0",
+    "xlwings>=0.31.5",
+]
+
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
